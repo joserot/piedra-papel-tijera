@@ -57,7 +57,7 @@ export function initWelcomePage() {
 
 			const next: any = div.querySelector("component-button");
 			next.addEventListener("click", () => {
-				Router.go("/reglas");
+				Router.go("/piedra-papel-tijera/reglas");
 			});
 		}
 	}

@@ -142,7 +142,7 @@ export function initResultPage() {
 
 			// Volver al jugar
 			const backToRules = () => {
-				Router.go("/reglas");
+				Router.go("/piedra-papel-tijera/reglas");
 			};
 
 			const $btn = div.querySelector("component-button");

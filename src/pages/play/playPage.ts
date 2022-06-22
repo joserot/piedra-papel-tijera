@@ -78,7 +78,7 @@ export function initPlayPage() {
 			// Vuelve a la página de reglas si se acaba el tiempo
 
 			const backToRules = () => {
-				Router.go("/reglas");
+				Router.go("/piedra-papel-tijera/reglas");
 			};
 
 			let backRulesTime = setTimeout(() => {
@@ -124,7 +124,7 @@ export function initPlayPage() {
 				state.addCurrentPlay(pcPlayed, userPlayed);
 
 				setTimeout(() => {
-					Router.go("/resultado");
+					Router.go("/piedra-papel-tijera/resultado");
 				}, 1500);
 			};
 

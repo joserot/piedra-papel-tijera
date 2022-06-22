@@ -63,7 +63,7 @@ export function initRulesPage() {
 
 			const next: any = div.querySelector("component-button");
 			next.addEventListener("click", () => {
-				Router.go("/juego");
+				Router.go("/piedra-papel-tijera/juego");
 			});
 		}
 	}
