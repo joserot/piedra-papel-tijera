@@ -1,0 +1,23 @@
+{
+	"name": "piedra-papel-tijera",
+	"version": "1.0.0",
+	"description": "App web para jugar al piedra papel o tijera",
+	"scripts": {
+		"dev": "parcel serve ./src/index.html",
+		"build": "parcel build ./src/index.html --dist-dir build --public-url /piedra-papel-tijera",
+		"deploy": "gh-pages -d ./dist",
+		"build-and-deploy": "npm run build && npm run deploy"
+	},
+	"author": "JoseRot <jose.rotchen14@gmail.com>",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^17.0.42",
+		"gh-pages": "^4.0.0",
+		"parcel": "^2.6.0",
+		"process": "^0.11.10",
+		"timers-browserify": "^2.0.12"
+	},
+	"dependencies": {
+		"@vaadin/router": "^1.7.4"
+	}
+}
