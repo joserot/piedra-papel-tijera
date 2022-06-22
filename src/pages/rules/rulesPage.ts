@@ -15,9 +15,9 @@ export function initRulesPage() {
 
 			div.innerHTML = `
       <div class="container">
+      <component-marker></component-marker>
              <component-text>Presioná jugar
               y elegí: piedra, papel o tijera antes de que pasen los 3 segundos.</component-text>
-              <component-marker></component-marker>
              <component-button >¡Jugar!</component-button>
             <div class="hands-container">
                 <component-piedra></component-piedra>
@@ -56,6 +56,9 @@ export function initRulesPage() {
     }
 
     component-marker{
+      position: fixed;
+      top: 0;
+      left:0;
       width: 100%;
       display: flex;
       flex-direction: column;
