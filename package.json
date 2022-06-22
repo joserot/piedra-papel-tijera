@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "parcel serve ./src/index.html",
 		"build": "parcel build ./src/index.html --dist-dir build --public-url /piedra-papel-tijera",
-		"deploy": "gh-pages -d ./dist",
+		"deploy": "gh-pages -d build",
 		"build-and-deploy": "npm run build && npm run deploy"
 	},
 	"author": "JoseRot <jose.rotchen14@gmail.com>",
@@ -15,9 +15,7 @@
 		"gh-pages": "^4.0.0",
 		"parcel": "^2.6.0",
 		"process": "^0.11.10",
-		"timers-browserify": "^2.0.12"
-	},
-	"dependencies": {
+		"timers-browserify": "^2.0.12",
 		"@vaadin/router": "^1.7.4"
 	}
 }
