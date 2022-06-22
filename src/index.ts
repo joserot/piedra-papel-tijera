@@ -6,6 +6,7 @@ import { initPiedra } from "./components/Piedra";
 import { initPapel } from "./components/Papel";
 import { initTijera } from "./components/Tijera";
 import { initCounter } from "./components/Counter";
+import { initMarker } from "./components/Marker";
 import { initWelcomePage } from "./pages/welcome/welcomePage";
 import { initRulesPage } from "./pages/rules/rulesPage";
 import { initPlayPage } from "./pages/play/playPage";
@@ -26,6 +27,7 @@ const initApp = (params: Element | null) => {
 	initPapel();
 	initTijera();
 	initCounter();
+	initMarker();
 };
 
 (function () {
